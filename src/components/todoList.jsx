@@ -1,5 +1,5 @@
 
-import { StackDivider, Box, Stack } from '@chakra-ui/react'
+import { Box } from '@chakra-ui/react'
 
 const TodoList = (props) => {
 if(props.todos === undefined) {

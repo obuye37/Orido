@@ -11,7 +11,6 @@ export const Navbar = () => {
             <Container>
               <SearchForm />
             </Container>
-            
         </Box>
     )
     
