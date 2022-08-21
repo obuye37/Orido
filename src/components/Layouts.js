@@ -6,7 +6,7 @@ import SearchForm from './search-form'
 
 export const Navbar = () => {
     return(
-        <Box as='Header' bg='tomato' pb='50px' color='white' >
+        <Box as='header' bg='tomato' pb='50px' color='white' >
             <Text fontFamily='sans-serif' fontSize='6xl' align='center'>Orido</Text>
             <Container>
               <SearchForm />
@@ -18,8 +18,8 @@ export const Navbar = () => {
 
 export const Footer = () => {
     return(
-      <Box bg="tomato" as='footer' display='flex' mt='2' justifyContent='center' alignItems='center' style={style.footer} >
-        <span>made with chakra-ui &amp; create-react-app</span>
+      <Box bg="tomato" as='footer' display='flex' mt='2' justifyContent='center' alignItems='center' color='white' style={style.footer} >
+        <span>Made with Chakra-ui &amp; Create-React-App</span>
       </Box>
     )
 }

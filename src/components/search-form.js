@@ -20,7 +20,6 @@ const SearchForm = () => {
             onBlur= {sblur}
             placeholder='Search your saved Todos' 
             _placeholder={!focus ? { opacity: 1, color: 'gray.500' } : { opacity: 1, color: '#eee' } }
-            focus
             focusBorderColor='#eee'
             variant='filled'
             />
